@@ -1,18 +1,76 @@
+.social-media img{
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 10px;
+}
 header {
-	background-color: rgba(99,00,00,1);
+	background-color: #A70230;
 	color: white;
 	width: 100%;
 	height: 100px;
 	position: fixed;
 	top: 0px;
 }
-ul{
+.services{
+	height: 400px;
+	width: 30%;
 	float: left;
+	margin-left: 30px;
+	text-align: center;
+}
+.services h2{
+	clear: left;
+	text-align: center;
+}
+.testimonies{
+  height: 550px;
+  width: 100%;
+}
+.testimonies img{
+  border-radius: 50%;
+  height: 200px;
+  width: 20%;
+  margin-left: 550px;
+  margin-top: 100px;
+  float: center;
+  align-items: center;
+} 
+.testy-text{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 10px;
+  text-align: center;
+}
+.navigation-panel{
+	display: flex;
+	justify-content: space-between;
+}
+.align-words{
+  color: red;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+}
+.align-words2{
+  font-size: 20px;
+  text-align: center;
+}
+.div-banner1{
+  width: 100%;
+  float: right;
+  height: 400px;
+}
+ul{
+	float: right;
+	display: inline-block;
 	list-style-type: none;
 	margin-top: 30px;
 	padding: 0;
 	overflow: hidden;
 	margin-right: 0;
+	width: 100%;
 }
 li {
 	float: left; 
@@ -25,35 +83,40 @@ li a {
 	text-decoration: none;
 }
 li a:hover {
-	color: red;
+	color: yellow;
 }
 .img1{
 	height: 100px;
 	width: 10%;
 	float: left;
 }
-.img12{
-	height: 100px;
-	width: 50%;
-	}
 .float{
 	float: left;
 }
-.float11{
+.footer-units{
 	float: left;
-	width: 23%;
+	width:  22%;
+	padding-top: 50px;
 }
-.float12{
+.Company-logo{  
 	float: left;
-	margin-left: 20px;
-	margin-top: 20px;
-	width: 25%;
+	margin-left: 50px;
+	margin-top: 100px;
+	width: 30%;
 }
-.float1{
+.Company-name{
 	float: left;
-	margin-right: 300px;
 	margin-left: 50px;
 	font-size: 40px;
+}
+.hamburg-icon{
+	height: 25px;
+	width: 25px;
+	margin-top: 25px;
+	color: white;
+	border-radius: 20%;
+	display: none;
+	float: right;
 }
 .float509{
 	margin-top: 0px;
@@ -61,14 +124,14 @@ li a:hover {
 .div1{
 	background-image: url(akoom9.jpg);
 	width: 100%;
-	height: 500px;
+	height: 500px; 
 }
 body{
 	background-color: black;
 	color: white;
 	margin: 0px;
 	padding: 0px;
-}
+} 
 .div2{
 	padding-left: 100px;
 	width: 25%;
@@ -83,24 +146,21 @@ body{
 	color: white;
 	font-family: arial;
 }
+.who-we-are{
+	width: 100%;
+	color:  #A70230;
+}
 
 .div4{
 	margin-top: 100px;
 	font-size: 40px;
 	text-align: center;
-	color: red; 
+	color:  #A70230; 
 }
 .div5{
 	background-color: rgba(00,00,11,0.5,);
 	width: 100%;
 	height: 300px;
-}
-.div6{
-	height: 400px;
-	width: 30%;
-	float: left;
-	margin-left: 30px;
-	text-align: center;
 }
 .img2{
 	height: 300px;
@@ -119,10 +179,14 @@ body{
 	color: black;
 }
 footer{
-	background-color: rgba(99,00,00,1);
+	background-color: #A70230;
 	color: white;
 	height: 350px;
-	width: 100%; 
+	width: 100%;
+	max-width: 100%;
+	max-height: 350px;
+	min-width: 48px;
+	min-height: 48px;
 }
 .img20{
 	height: 600px;
@@ -136,7 +200,7 @@ footer{
   max-width: 100%;
   position: relative;
   margin: auto;
-  margin-top: 90px;
+  margin-top: 90px; 
 }
 
 /* Hide the images by default */
@@ -149,7 +213,6 @@ footer{
   cursor: pointer;
   position: absolute;
   top: 50%;
-
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -232,5 +295,85 @@ footer{
 	justify-content: center;
 	font-family: sans-serif;
 	font-size: 25px;
-	top:0;
+	top: 0;
+}
+/**  mobile screen  **/
+/*@media screen and (max-width: 728px) {
+
+ul{
+	flex-direction: column;
+	align-items: flex-start;
+	background-color: black;
+	width: 100px;
+	margin-left: 200px;
+	}
+
+li a {
+	font-size: 20px;
+}
+
+
+.Company-name h1{
+	float: left;
+	margin-right: 100px;
+	margin-left: 50px;
+	font-size: 25px;
+}
+
+.hamburg-icon{
+	height: 50px;
+	width: 50px;
+	margin-top: 25px;
+	display: block;
+	background-color: white;
+	border-radius: 20%;
+}
+
+}
+
+/** End of mobile Screen  **/
+@media only screen and (max-width: 650px) {
+.services{
+	width: 100%;
+}
+.footer-units{
+	width:  100%;
+	text-align: center;
+}
+.Company-logo{  
+	width: 100%;
+}
+ul{
+	flex-direction: column;
+	align-items: flex-start;
+	background-color:  #A70230;
+	width: 50%;
+	}
+
+li a {
+	font-size: 20px;
+	color: white;
+}
+
+
+.hamburg-icon{
+	height: 25px;
+	width: 25px;
+	margin-top: 25px;
+	display: block;
+	border-radius: 20%;
+	position: absolute;
+	top: 0;
+	margin-bottom: 100px;
+	right: 5px;
+}
+footer{
+	height: auto;
+}
+.social-media {
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
 }
