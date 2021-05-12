@@ -1,3 +1,37 @@
+.aboutus-intro{
+	width: 100;
+	height: 750px;
+	padding: 50px;
+}
+.intro-section{
+	height: 600px;
+	width: 100%;
+}
+.intro-text{
+	font-size: 60px;
+	color: 	#FFFFFF;
+	text-align: center;
+	padding-top: 200px;
+}
+.who-we-are button{
+	background: #A70230;
+	color: red;
+	height: 35px;
+	margin-top: 25px;
+}
+.who-we-are a{
+	text-decoration: none;
+	color: 	#FFFFFF;
+	padding: 5px;
+	float: right;
+}
+.who-we-are p{
+	color: 	#FFFFFF;
+	text-align: center;
+	padding: 50px;
+	border: 5px solid #A70230;
+	margin: 50px;
+}
 .social-media img{
 	height: 25px;
 	width: 25px;
@@ -7,11 +41,11 @@
 }
 header {
 	background-color: #A70230;
-	color: white;
+	color: 	#FFFFFF;
 	width: 100%;
 	height: 100px;
+	top: 0;
 	position: fixed;
-	top: 0px;
 }
 .services{
 	height: 400px;
@@ -25,8 +59,9 @@ header {
 	text-align: center;
 }
 .testimonies{
-  height: 550px;
   width: 100%;
+  height: 350px;
+  padding-top: 100px;
 }
 .testimonies img{
   border-radius: 50%;
@@ -43,12 +78,18 @@ header {
   margin-top: 10px;
   text-align: center;
 }
+.testy-text2{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 10px;
+  text-align: center;
+}
 .navigation-panel{
 	display: flex;
 	justify-content: space-between;
 }
 .align-words{
-  color: red;
+  color: #A70230;
   font-size: 50px;
   text-align: center;
   margin-top: 100px;
@@ -77,7 +118,7 @@ li {
 }
 li a {
 	display: block;
-	color: white;
+	color: 	#FFFFFF;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -102,21 +143,20 @@ li a:hover {
 	float: left;
 	margin-left: 50px;
 	margin-top: 100px;
-	width: 30%;
+	width: 25%;
 }
 .Company-name{
 	float: left;
 	margin-left: 50px;
 	font-size: 40px;
 }
-.hamburg-icon{
+#hamburg-icon{
 	height: 25px;
 	width: 25px;
 	margin-top: 25px;
-	color: white;
+	color: 	#FFFFFF;
 	border-radius: 20%;
 	display: none;
-	float: right;
 }
 .float509{
 	margin-top: 0px;
@@ -127,8 +167,8 @@ li a:hover {
 	height: 500px; 
 }
 body{
-	background-color: black;
-	color: white;
+	background-color: #000000;
+	color: 	#FFFFFF;
 	margin: 0px;
 	padding: 0px;
 } 
@@ -147,6 +187,7 @@ body{
 	font-family: arial;
 }
 .who-we-are{
+	height: 350px;
 	width: 100%;
 	color:  #A70230;
 }
@@ -155,7 +196,7 @@ body{
 	margin-top: 100px;
 	font-size: 40px;
 	text-align: center;
-	color:  #A70230; 
+	color: #A70230; 
 }
 .div5{
 	background-color: rgba(00,00,11,0.5,);
@@ -176,11 +217,11 @@ body{
 	height: 500px;
 	width: 100%;
 	background-color: lightgrey;
-	color: black;
+	color: 	#000000;
 }
 footer{
-	background-color: #A70230;
-	color: white;
+	background-color: ;
+	color: 	#FFFFFF;
 	height: 350px;
 	width: 100%;
 	max-width: 100%;
@@ -201,6 +242,10 @@ footer{
   position: relative;
   margin: auto;
   margin-top: 90px; 
+}
+.slideshow-container img{
+	width:100%; 
+	height: 500px;
 }
 
 /* Hide the images by default */
@@ -297,48 +342,48 @@ footer{
 	font-size: 25px;
 	top: 0;
 }
-/**  mobile screen  **/
-/*@media screen and (max-width: 728px) {
 
-ul{
-	flex-direction: column;
-	align-items: flex-start;
-	background-color: black;
-	width: 100px;
-	margin-left: 200px;
-	}
-
-li a {
-	font-size: 20px;
+.open{
+	height: 100vh;
+}
+.hidden{
+	display: none;
 }
 
 
-.Company-name h1{
-	float: left;
-	margin-right: 100px;
-	margin-left: 50px;
-	font-size: 25px;
+/** mobile Screen  **/
+@media only screen and (max-width: 650px) and (min-width: 421px) {
+.testimonies img{
+  border-radius: 50%;
+  height: 100px;
+  width: 20%;
+  float: left;
+  margin-left: 30px;
+  margin-top: 50px;
+} 
+.testy-text{
+  float: left;
+  width: 60%;
+  margin-left: 30px;
+  margin-right: 0px;
+  margin-top: 50px;
+  text-align: left; 
+}
+.testy-text2{
+  float: left;
+  width: 60%;
+  margin-left: 30px;
+  margin-right: 0px;
+  margin-top: 10px;
+  text-align: left;
 }
 
-.hamburg-icon{
-	height: 50px;
-	width: 50px;
-	margin-top: 25px;
-	display: block;
-	background-color: white;
-	border-radius: 20%;
-}
-
-}
-
-/** End of mobile Screen  **/
-@media only screen and (max-width: 650px) {
 .services{
-	width: 100%;
+	width: 95%;
 }
 .footer-units{
 	width:  100%;
-	text-align: center;
+	margin-left: 45px;
 }
 .Company-logo{  
 	width: 100%;
@@ -347,33 +392,244 @@ ul{
 	flex-direction: column;
 	align-items: flex-start;
 	background-color:  #A70230;
-	width: 50%;
+	width: 40%;
 	}
 
 li a {
 	font-size: 20px;
-	color: white;
+	color: 	#FFFFFF;
+	display: block;
 }
-
-
-.hamburg-icon{
+#hamburg-icon{
 	height: 25px;
-	width: 25px;
+	width: 35px;
 	margin-top: 25px;
 	display: block;
-	border-radius: 20%;
 	position: absolute;
-	top: 0;
+	top: 10px;
 	margin-bottom: 100px;
-	right: 5px;
+	right: 30px;
 }
 footer{
-	height: auto;
+	height: 350px;
+	margin-top: 100px;
+	background-color: none;
 }
 .social-media {
 	width: 100%;
 	align-items: center;
 	justify-content: center;
 }
+.Company-name {
+	font-size: 35px;
+}
+.slideshow-container img{
+	width: 100%; 
+	height: 300px;
+}
+nav{
+	height: 0;
+	width: 100%;
+	overflow: hidden;
+	transition: 500ms height ease-in-out;
+}
+.hidden{
+	display: none;
+}
+}
 
+@media only screen and (max-width: 990px) and (min-width: 651px){
+.testimonies img{
+  border-radius: 50%;
+  height: 100px;
+  width: 20%;
+  float: left;
+  margin-left: 30px;
+  margin-top: 50px;
+} 
+.testy-text{
+  float: left;
+  width: 60%;
+  margin-left: 30px;
+  margin-right: 0px;
+  margin-top: 50px;
+  text-align: left;
+}
+.testy-text2{
+  float: left;
+  width: 60%;
+  margin-left: 30px;
+  margin-right: 0px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.services{
+	width: 45%;
+}
+.footer-units{
+	width:  20%;
+	margin-right: 10px;
+	padding-top: 5px;
+}
+.Company-logo{  
+	width: 25%;
+	margin-left: 5px;
+	padding-left: 10px;
+	margin-top: 10px;
+}
+ul{
+	flex-direction: column;
+	align-items: flex-start;
+	background-color:  #A70230;
+	width: 35%;
+	}
+
+li a {
+	font-size: 20px;
+	color: 	#FFFFFF;
+	display: block;
+}
+#hamburg-icon{
+	height: 30px;
+	width: 35px;
+	margin-top: 25px;
+	display: block;
+	position: absolute;
+	top: 20px;
+	margin-bottom: 100px;
+	right: 50px;
+}
+.social-media {
+	width: 45%;
+	align-items: center;
+	justify-content: center;
+}
+.services h2{
+	clear: left;
+}
+.slideshow-container img{
+	width: 100%; 
+	height: 400px;
+}
+nav{
+	height: 0;
+	width: 100%;
+	overflow: hidden;
+	transition: 500ms height ease-in-out;
+}
+.hidden{
+	display: none;
+}
+}
+@media only screen and (max-width: 420px){
+.testimonies{
+	margin-top: 300px;
+	padding-top: 200px;
+}
+.testimonies img{
+  border-radius: 50%;
+  height: 100px;
+  width: 25%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 30px;
+} 
+.testy-text{
+  float: left;
+  width: 60%;
+  margin-left: 15px;
+  margin-right: 0px;
+  margin-top: 30px;
+  text-align: left;
+}
+.testy-text2{
+  float: left;
+  width: 60%;
+  margin-left: 15px;
+  margin-right: 0px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.services{
+	width: 90%;
+	height: 250px;
+	margin-top: 150px;
+}
+.slideshow-container img{
+	width: 100%; 
+	height: 200px;
+}
+.footer-units{
+	width: 90%;
+	margin-left: 50px;
+}
+.Company-logo{  
+	width: 100%;
+	margin-left: 5px;
+	padding-left: 10px;
+	margin-top: 10px;
+}
+ul{
+	flex-direction: column;
+	align-items: flex-start;
+	background-color:  #A70230;
+	width: 55%;
+	}
+li {
+	display: block;
+	text-align: center;
+	padding: 10px 0;
+}
+
+li a {
+	font-size: 20px;
+	color: #FFFFFF;
+	display: block;
+}
+footer{
+		margin-top: 100px;
+	background-color: none;
+}
+
+#hamburg-icon{
+	height: 25px;
+	width: 35px;
+	margin-top: 25px;
+	display: block;
+	position: absolute;
+	top: 10px;
+	margin-bottom: 100px;
+	right: 15px;
+}
+.social-media {
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+.Company-name {
+	font-size: 30px;
+}
+nav{
+	height: 0;
+	width: 100%;
+	overflow: hidden;
+	transition: 500ms height ease-in-out;
+}
+.hidden{
+	display: none;
+}
+.div4{
+	font-size: 25px;
+}
+header{
+	height: 75px;
+}
+.who-we-are{
+	height: 600px;
+	width: 100%;
+	color:  #A70230;
+	display: block;
+}
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE  html>
 <html>
 <head>
-	<title>akoom group</title>
+	<title>reigners.com</title>
 	<link rel="stylesheet" type="text/css" href="css/akoom.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,19 +17,22 @@
     <!-- MDB -->
     <!--<link rel="stylesheet" href="css/mdb.min.css" >-->
 	<script type="text/javascript" href="js/Akoomjavascript.js"></script>
-</head>
 <body>
+</head>
 <header>  
 	<div class="navigation-panel">
-			<h1 class="Company-name">Akoom Group</h1>
-		<nav class="nav-toggle" id="navToggle">
+			<h1 class="Company-name">Reigners</h1>
+			<div class="nav-toggle" id="navToggle">
+				<img src="img/hamburger2 (2).png" id="hamburg-icon" class="navIcon">
+				<img src="img/Close.png" id="hamburg-icon" class="hidden">
+			</div>
+		<nav class="">
 			<ul>
-				<li><img src="img/hamburger2.png" class="hamburg-icon"></li>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="services.html">Services</a></li>
 				<li><a href="about.html">About Us</a> </li>
 				<li><a href="blog.html">Our Blog</a></li>
-				<li><a href="Contact.html">Contact Us</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
 			</ul>
 		</nav>
 	</div> 	
@@ -41,17 +44,17 @@
 		 <!-- Full-width images with number and caption text -->
 	<div class="mySlides fade">
 	<div class="numbertext">1 /3</div>
-	<img src="img/akoom14.jpg" style="width: 100%; height: 500px;">
+	<img src="img/akoom1.png" >
 			<div class="text">Akoom Group</div>
 		</div>
 		<div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="img/akoom18.jpg" style="width:100%; height: 500px;">
+    <img src="img/akoom18.jpg" >
     <div class="text">Akoom Group</div>
   </div>
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="img/akoom11.jpg" style="width:100%; height: 500px;">
+    <img src="img/akoom11.jpg">
     <div class="text">Akoom Group</div>
   </div>
 
@@ -62,23 +65,29 @@
 <br>
 
 <!-- The dots/circles -->
-<div style="text-align:center">
+<div style="text-align : center">
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 	</div>
 </div>
 </section style>
+<section class="who-we-are">
+	<h1 class="div4">WHO WE ARE</h1>
+	<p>We are an independent conglomerate that specialises in improving the standard of living of the world populace by delivering top notch products and services, we have managed to develope and maintain a working system across many sectors of the world economy, such as automobiles, technology, transportation, Oil and gas and food sectors just to mention a few, we also invest into young growing business and start ups <br>
+		 <button><a href="about.html">READ MORE</a></button> </p>
+</section>
+
 <section>
 	<div>
 		<h1 class="div4">OUR SERVICES</h1>
 		<div class="services">
 			<img src="img/akoom8.jpg" class="img2">
-		<h2>Wholesale and retail of Gas</h2>
+		<h2>Wholesale and retail of Cooking Gas</h2>
 		</div>
 		<div class="services">
 			<img src="img/akoom3.jpg" class="img2">
-		<h2>Web/apps development and Database Management</h2>
+		<h2>Web and Apps development</h2>
 		</div>
 		<div class="services">
 			<img src="img/akoom6.jpg" class="img2">
@@ -98,13 +107,23 @@
 		</div>
 	</div>
 </section>
-<section class="who-we-are">
-	<h1 class="div4">WHO WE ARE</h1>
-</section>
+<section class="testimonies">
+		<h1 class="align-words">Don't just take our word for it</h1>
+		<p class="align-words2">pleasant stories from our members</p>
+		<div class="div-banner1">
+			<img src="img/jote.jpg">
+			<div>
+				<p class="testy-text">Nelson Parker</p>
+				<p class="testy-text2">I invested five thousand dollars in octacave investment in 2018, and by the end of 2018, i had gotten six thousand dollars as profit in addition to my capital, i was able to start my Cattle ranch, this is the most reliable system for investment. </p>
+			</div>
+			
+		</div>
+		
+	</section>
 
 <footer>
 	<div class="Company-logo">
-		<h1>Akoom Group</h1>
+		<h1>Reigners</h1>
 		<div class="social-media">
 			<a href="https//:www.facebook.com/akoomgroup"><img src="img/facebook.png"></a>
 			<a href="https//:www.linkedin.com/in/akoomgroup"><img src="img/linked.png"></a>
@@ -140,22 +159,7 @@
 		<p> 10, Happy Home street, Makurdi, Nigeria</p>
 	</div>
 </footer>
-<script type="text/javascript">
-	var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 5000); // Change image every 2 seconds
-}
-</script>
+<script type="text/javascript" src="js/Akoomjavascript.js"></script>
 <!--<script type="text/javascript" src="js/mdb.min.js"></script>
  Custom scripts
 <script type="text/javascript"></script>-->
